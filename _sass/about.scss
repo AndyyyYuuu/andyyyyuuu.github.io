@@ -1,0 +1,22 @@
+.about-layout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  font-size: 0.9rem;
+}
+
+.about-photo-wrap {
+  width: 240px;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .about-layout {
+    flex-direction: column;
+  }
+
+  .about-photo-wrap {
+    width: 100%;
+    max-width: 280px;
+  }
+}

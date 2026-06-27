@@ -1,0 +1,141 @@
+---
+---
+
+@import "minima";
+
+/*
+:root {
+    --body-color: #3f2615;
+    --link-color: #607456;
+    --title-color: #BA6A4C;
+    --post-title-color: #BA6A4C;
+    --bg-color: #EEE0CC;
+    --light-color: #CB9177;
+    --lighter-color: #E2C6B0; 
+}*/
+
+:root {
+    --body-color: #40101C;
+    --link-color: #5E8C6B;
+    --title-color: #831F38;
+    --post-title-color: #831F38;
+    --bg-color: #FEF5EF;
+    --light-color: #B3727F;
+    --lighter-color: #F0DCDA;
+    --footer-heading-color: var(--post-title-color);
+    --math-color: var(--title-color);
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: "Lora", "georgia", serif;
+    color: var(--body-color);
+    font-weight: 420; 
+    font-size: 16px;
+}
+
+a, a:visited {
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--body-color);
+}
+
+.site-nav .page-link,
+.site-nav .page-link:visited {
+    color: var(--title-color);
+}
+
+.site-title:hover,
+.site-nav .page-link:hover {
+    color: var(--body-color);
+}
+
+.site-header {
+    color: var(--title-color);
+    font-family: "Outfit", sans-serif;
+    font-weight: 550;
+}
+
+.site-title,
+.site-title:visited{
+    color: var(--title-color);
+    font-family: "Lora", "georgia", serif;
+    font-weight: 550;
+}
+
+.post-list-heading {
+    color: var(--title-color);
+    font-size: 0.875rem;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--lighter-color);
+}
+
+.post-title,
+.post-link,
+.post-link:visited,
+.post-link:hover  {
+    color: var(--post-title-color);
+    font-family: "Outfit", sans-serif;
+    font-weight: 550;   
+}
+
+.post-content {
+    color: var(--body-color);
+    font-family: "Lora", "georgia", serif;
+}
+
+.site-header {
+    border-bottom-color: var(--lighter-color);
+    
+}
+
+.site-footer {
+    border-top-color: var(--lighter-color);
+}
+
+hr {
+    border:0;
+    margin-bottom: 1rem;
+    width:100%;
+    height:2px;
+    background: var(--lighter-color);
+}
+
+.footer-col-wrapper, .post-meta {
+    color: var(--light-color);
+}
+
+.footer-heading {
+    font-family: "Lora", "georgia", serif;
+    font-weight: 400;
+    color: var(--footer-heading-color);
+}
+
+.caption {
+    font-size: 0.7rem;
+    color: var(--light-color);
+    text-align: right;
+}
+
+summary {
+    font-weight: 600;
+}
+
+details {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--lighter-color);
+}
+
+.details-body {
+    padding-left: 2rem;
+}
+
+@import "about";
