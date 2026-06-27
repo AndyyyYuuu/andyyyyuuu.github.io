@@ -22,8 +22,7 @@ def entropy(x: torch.Tensor, dim: int, alpha: float = 1) -> torch.Tensor:
         return -torch.sum(x * torch.log(x), dim=dim)
     elif alpha == 0: 
         return torch.log((x != 0).sum(dim=dim).float())
-    else: 
-        return torch.log(torch.sum(x ** alpha, dim=dim)) / (1 - alpha)
+    return torch.log(torch.sum(x ** alpha, dim=dim)) / (1 - alpha)
 ```
 
 Neat. 
