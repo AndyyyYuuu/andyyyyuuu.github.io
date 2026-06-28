@@ -23,7 +23,7 @@
     --light-color: #B3727F;
     --lighter-color: #F0DCDA;
     --footer-heading-color: var(--post-title-color);
-    --math-color: var(--title-color);
+    --math-color: var(--body-color);
 }
 
 body {
@@ -50,12 +50,6 @@ a:hover {
 .site-title:hover,
 .site-nav .page-link:hover {
     color: var(--body-color);
-}
-
-.site-header {
-    color: var(--title-color);
-    font-family: "Outfit", sans-serif;
-    font-weight: 550;
 }
 
 .site-title,
@@ -92,8 +86,11 @@ a:hover {
 }
 
 .site-header {
+    color: var(--title-color);
+    font-family: "Outfit", sans-serif;
+    font-weight: 550;
     border-bottom-color: var(--lighter-color);
-    
+    border-top-color: var(--light-color);
 }
 
 .site-footer {
@@ -136,6 +133,24 @@ details {
 
 .details-body {
     padding-left: 2rem;
+}
+
+blockquote {
+    border-left: 4px solid var(--lighter-color);
+    color: var(--light-color);
+
+    font-size: 1rem;
+    letter-spacing: 0.02em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 550;
+    color: var(--title-color);
+}
+
+MathJax {
+    color: var(--math-color);
 }
 
 @import "about";
