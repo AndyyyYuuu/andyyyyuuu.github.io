@@ -2,6 +2,7 @@
 layout: post
 title: Hello World!!
 date: 2026-06-25 16:29 -0700
+tags: [meta]
 ---
 I just got this thing set up. Figured I could dump updates and thoughts here. 
 

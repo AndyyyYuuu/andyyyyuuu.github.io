@@ -80,6 +80,22 @@ a:hover {
     font-weight: 550;   
 }
 
+.post-header .post-tags {
+    margin-top: 0.25rem;
+    margin-bottom: 0.35rem;
+    font-size: 0.8125rem;
+    line-height: 1.2;
+}
+
+.post-tag {
+    background-color: var(--lighter-color);
+    padding: 0.2rem 0.4rem;
+    font-family: "Outfit", sans-serif;
+    border-radius: 0.2rem;
+    font-size: 0.8rem; 
+}
+
+
 .post-content {
     color: var(--body-color);
     font-family: "Lora", "georgia", serif;
