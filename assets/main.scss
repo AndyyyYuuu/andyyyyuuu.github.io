@@ -17,8 +17,11 @@
 :root {
     --body-color: #40101C;
     --link-color: #5E8C6B;
+    --link-hover-color: #86A78C;
     --title-color: #831F38;
-    --post-title-color: #831F38;
+    --title-hover-color: #40101C;
+    --post-title-color: var(--title-color);
+    --post-title-hover-color: var(--title-hover-color);
     --bg-color: #FEF5EF;
     --light-color: #B3727F;
     --lighter-color: #F0DCDA;
@@ -36,20 +39,25 @@ body {
 
 a, a:visited {
     color: var(--link-color);
+    text-decoration: none;
+    display: inline-block;
+    transition: color 0.2s ease, transform 0.2s ease;
 }
 
-a:hover {
-    color: var(--body-color);
+a:hover,
+.social-media-list a:hover .username {
+    color: var(--link-hover-color);
+    text-decoration: none;
+    transform: translateY(-1px);
+    text-decoration: underline;
 }
 
 .site-nav .page-link,
 .site-nav .page-link:visited {
     color: var(--title-color);
-}
-
-.site-title:hover,
-.site-nav .page-link:hover {
-    color: var(--body-color);
+    display: inline-block;
+    transition: color 0.2s ease, transform 0.2s ease;
+    transform: none;
 }
 
 .site-title,
@@ -57,7 +65,18 @@ a:hover {
     color: var(--title-color);
     font-family: "Lora", "georgia", serif;
     font-weight: 550;
+    display: inline-block;
+    transition: color 0.2s ease, transform 0.2s ease;
+    transform: none;
 }
+
+.site-title:hover,
+.site-nav .page-link:hover {
+    color: var(--title-hover-color);
+    transform: translateY(3px);
+    text-decoration: none; 
+}
+
 
 .post-list-heading {
     color: var(--title-color);
@@ -71,14 +90,38 @@ a:hover {
     border-bottom: 1px solid var(--lighter-color);
 }
 
+
+
 .post-title,
 .post-link,
-.post-link:visited,
-.post-link:hover  {
+.post-link:visited  {
     color: var(--post-title-color);
     font-family: "Outfit", sans-serif;
     font-weight: 550;   
+    transition: color 0.2s ease, transform 0.2s ease;
 }
+
+.post-link:hover {
+    color: var(--post-title-hover-color);
+    transform: translateX(5px);
+    text-decoration: none;
+}
+
+.post-header .post-tags {
+    margin-top: 0.25rem;
+    margin-bottom: 0.35rem;
+    font-size: 0.8125rem;
+    line-height: 1.2;
+}
+
+.post-tag {
+    background-color: var(--lighter-color);
+    padding: 0.2rem 0.4rem;
+    font-family: "Outfit", sans-serif;
+    border-radius: 0.2rem;
+    font-size: 0.8rem; 
+}
+
 
 .post-content {
     color: var(--body-color);
