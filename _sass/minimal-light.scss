@@ -215,13 +215,25 @@ papertitle {
 
 .image.avatar img {
   border-radius: 1em;
-  width: 82%;
+  width: 180px;
   margin-bottom: 20px;
 }
 
 #header .image.avatar {
   margin: 0 0 1em 0;
   width: 8.00em;
+}
+
+.webring {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 1em;
+}
+
+.webring a, .webring a:hover {
+  color: var(--palette-primary)
 }
 
 h3,
@@ -471,10 +483,10 @@ footer {
     right: 50px;
     top: 52px;
   }
-
+  
   .image.avatar img {
     border-radius: 2em;
-    width: 117px;
+    width: 180px;
     padding: 20px;
   }
 
@@ -526,7 +538,7 @@ footer {
 
   .image.avatar img {
     border-radius: 2em;
-    width: 95px;
+    width: 160px;
     padding: 20px;
   }
 

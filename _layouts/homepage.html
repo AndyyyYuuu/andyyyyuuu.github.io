@@ -29,6 +29,13 @@
   <body>
     <div class="wrapper">
       <header>
+        <div class="webring">
+          <a href="https://cs.uwatering.com/#andyyyyuuu.github.io?nav=prev">←</a>
+          <a href="https://cs.uwatering.com/#andyyyyuuu.github.io" target="_blank">
+              <img src="https://cs.uwatering.com/icon.red.svg" alt="CS Webring" style="width: 24px; height: auto; opacity: 0.8;"/>
+          </a>
+          <a href="https://cs.uwatering.com/#andyyyyuuu.github.io?nav=next">→</a>
+        </div>
         
         {% if site.avatar %}
         <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
@@ -41,7 +48,7 @@
         <br>
         {% endif %}
         {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+        <a href="{{ site.affiliation_link }}" rel="noopener" target="_blank"><autocolor>{{ site.affiliation }}</autocolor></a>
         <br>
         {% endif %}
         {% if site.email %}
@@ -52,36 +59,37 @@
         <br>
         <div class="social-icons">
         {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
+        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}" target="_blank">
           <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
         </a>  
         {% endif %}
 
         {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
+        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}" target="_blank">
           <i class="ai ai-cv" style="font-size:1.3rem;"></i>
         </a>
         {% endif %}
 
         {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
+        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}" target="_blank">
           <i class="fab fa-github"></i>
         </a>
         {% endif %}
 
         {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
+        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}" target="_blank">
           <i class="fab fa-linkedin"></i>
         </a>
         {% endif %}
 
         {% if site.twitter %}
-        <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
+        <a style="margin: 0 0 0 0" href="{{ site.twitter }}" target="_blank">
           <i class="fab fa-x-twitter"></i>
         </a>
         {% endif %}
         </div>
         <br>
+        
 
       </header>
       <section>

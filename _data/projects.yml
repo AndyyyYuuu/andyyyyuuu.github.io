@@ -3,7 +3,7 @@ main:
     description: Studying the next-token distribution of LLMs...
     topics:
       - LLMs
-    start: "2025-07"
+    start: "2025-06"
     end: Present
 
   - title: Neologisms
@@ -22,5 +22,5 @@ main:
     topics:
       - Functional programming
       - Autograd
-    start: "2025-05"
-    end: "2025-08"
+    start: "2025-12"
+    end: "2026-02"

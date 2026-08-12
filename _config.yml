@@ -2,6 +2,7 @@
 title: Andy S. Yu
 position: Computer Science Undergrad
 affiliation: University of Waterloo
+affiliation_link: https://cs.uwaterloo.ca/
 email: andy.s.yu@proton.me
 
 # Search Engine Optimization (SEO)
@@ -13,13 +14,13 @@ canonical: https://andyyyyuuu.github.io/
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
 github_link: https://github.com/AndyyyYuuu
-linkedin: https://www.linkedin.com/asyu
+linkedin: https://www.linkedin.com/in/asyu
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
 avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+favicon: ./assets/img/favicon.svg
+favicon_dark: ./assets/img/favicon-dark.svg
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
