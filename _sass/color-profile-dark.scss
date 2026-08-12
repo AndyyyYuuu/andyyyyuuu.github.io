@@ -1,0 +1,15 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --palette-bg: #1f080e;
+    --palette-surface: #40101c;
+    --palette-border: #831f38;
+    --palette-text: #f0dcda;
+    --palette-text-strong: #fef5ef;
+    --palette-contrast: #fef5ef;
+    --palette-inverse: #1f080e;
+    --palette-primary: #d9909c;
+    --palette-accent: #86a78c;
+    --profile-light-visibility: hidden;
+    --profile-dark-visibility: visible;
+  }
+}

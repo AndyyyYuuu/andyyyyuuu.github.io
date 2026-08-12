@@ -1,0 +1,26 @@
+main:
+  - title: LLM Expressivity
+    description: Studying the next-token distribution of LLMs...
+    topics:
+      - LLMs
+    start: "2025-07"
+    end: Present
+
+  - title: Neologisms
+    description: LLMs have words for things humans don't. I try to find these words in the token embedding space. 
+    link: https://github.com/AndyyyYuuu/neologisms
+    topics:
+      - LLMs
+      - Interpretability
+      - Embeddings
+    start: "2026-01"
+    end: "2026-06"
+
+  - title: Neural Network in Racket
+    description: Built working neural network optimization in Racket using soley the syntax provided in CS 135 at UWaterloo. 
+    link: https://github.com/AndyyyYuuu/rktorch
+    topics:
+      - Functional programming
+      - Autograd
+    start: "2025-05"
+    end: "2025-08"

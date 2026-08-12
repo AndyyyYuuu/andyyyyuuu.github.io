@@ -1,4 +1,8 @@
 ---
 ---
 
+@import "color-profiles";
+{% if site.auto_dark_mode %}
+@import "color-profile-dark";
+{% endif %}
 @import "minimal-light";
