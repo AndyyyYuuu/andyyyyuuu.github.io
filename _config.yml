@@ -30,6 +30,8 @@ enable_footnote: true
 # You may use the option to disable the automatic dark theme
 auto_dark_mode: false
 
+enable_darkness: false
+
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
 font: "Serif" # or "Sans Serif"
