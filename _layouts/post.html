@@ -96,6 +96,7 @@
           inlineMath: [['\\(', '\\)']],
           displayMath: [['\\[', '\\]']],
           macros: {
+            br: "\\\\[8pt]",
             mat: ["{\\begin{bmatrix}#1\\end{bmatrix}}", 1],
             T: "^{\\intercal}",
             R: "{\\mathbb R}",
@@ -104,10 +105,18 @@
             "|": "{\\vert}",
             Softmax: "\\text{Softmax}",
           }
+        },
+        output: {
+          displayOverflow: 'linebreak',
+          linebreaks: {
+            inline: true,
+            width: '100%',
+            lineleading: 0.75
+          }
         }
       };
     </script>
-    <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"></script>
   </head>
   <body>
     {% if site.enable_darkness %}

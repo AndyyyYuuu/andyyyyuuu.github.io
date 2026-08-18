@@ -29,7 +29,7 @@ Then, for all $$n \geq 2$$, we have from the definition that $$F_n=F_{n-1}+F_{n-
 We bound $$0 \leq F_n \leq 2^n$$ from the last two paragraphs. Then, for $$n \geq 0$$, 
 
 $$\displaylines{
-\frac{0}{4^n} \leq \frac{F_n}{4^n} \leq \frac{2^n}{4^n}\\
+\frac{0}{4^n} \leq \frac{F_n}{4^n} \leq \frac{2^n}{4^n}\br
 0 \leq \frac{F_n}{4^n} \leq \frac1{2^n}.
 }$$
 
@@ -94,7 +94,7 @@ $$f(x) = \sum\limits_{n=0}^\infty\frac1{\sqrt5}\left(\frac{1+\sqrt5}{2}x\right)^
 We now have two power series representations for $$f(x)$$ on its domain: 
 
 $$\displaylines{
-    f(x) = \sum\limits_{n=0}^\infty F_nx^n \\
+    f(x) = \sum\limits_{n=0}^\infty F_nx^n \br
     f(x) = \sum\limits_{n=0}^\infty\left[\frac1{\sqrt{5}}\left(\frac{1+\sqrt5}2\right)^n-\frac1{\sqrt{5}}\left(\frac{1-\sqrt5}2\right)^n\right]x^n.
 }$$
 
