@@ -16,4 +16,10 @@ I'm also a casual jazz alto saxophonist.
 
 - **[May 2026]** I've started a temporary position as Software Developer at a stealth startup!
 
+
+
+{% include_relative _includes/blog.md %}
+
+<!--
 {% include_relative _includes/projects.md %}
+-->

@@ -1,6 +1,6 @@
 main:
   - title: LLM Expressivity
-    description: Studying the next-token distribution of LLMs...
+    description: Studying the next-token distribution of LLMs. More on that coming soon...
     topics:
       - LLMs
     start: "2025-06"
