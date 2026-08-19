@@ -23,31 +23,24 @@
 }
 .darkness-overlay.active { display: block; }
 
-
-.darkness-toggle,
-.vignette-overlay {
-  display: none;
+.darkness-toggle {
+  align-items: center;
+  background: transparent;
+  border: 1px solid var(--palette-border);
+  border-radius: 999px;
+  color: var(--palette-primary);
+  cursor: pointer;
+  display: inline-flex;
+  height: 2.25rem;
+  justify-content: center;
+  padding: 0;
+  width: 2.25rem;
+  margin: 0.5rem;
 }
 
-@media (hover: hover) {
-  .darkness-toggle {
-    align-items: center;
-    background: transparent;
-    border: 1px solid var(--palette-border);
-    border-radius: 999px;
-    color: var(--palette-primary);
-    cursor: pointer;
-    display: inline-flex;
-    height: 2.25rem;
-    justify-content: center;
-    padding: 0;
-    width: 2.25rem;
-    margin: 0.5rem;
-  }
-
-  .darkness-toggle .material-symbols-outlined {
-    font-size: 1.25rem;
-    font-variation-settings: 'FILL' 0;
-    line-height: 1;
-  }
+.darkness-toggle .material-symbols-outlined {
+  font-size: 1.25rem;
+  font-variation-settings: 'FILL' 0;
+  line-height: 1;
 }
+
