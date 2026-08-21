@@ -311,7 +311,9 @@ blockquote {
 
 code,
 pre {
-  font-family: var(--font-mono);
+  font-family: var(--font-code);
+  font-variant-ligatures: none;
+  font-feature-settings: "liga" 0, "calt" 0;
   color: var(--site-code-text);
 }
 
