@@ -1,6 +1,27 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+:root {
+  --font-serif: "Crimson Pro", serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-mono: "Ubuntu Mono", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, Consolas, "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace;
+  --font-code: "JetBrains Mono", var(--font-mono);
+  --font-body: {% if site.font == "Sans Serif" %}var(--font-sans){% else %}var(--font-serif){% endif %};
+  --font-body-size: {% if site.font == "Sans Serif" %}14px{% else %}16px{% endif %};
+  --body-padding: {% if site.font == "Sans Serif" %}50px{% else %}0px{% endif %};
+}
+
+body {
+  padding: var(--body-padding);
+  font: var(--font-body-size)/1.5 var(--font-body);
+  font-weight: 400;
+  margin: 0;
+}
+
 @import "color-profiles";
 {% if site.auto_dark_mode %}
 @import "color-profile-dark";
