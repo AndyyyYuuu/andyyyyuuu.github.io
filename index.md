@@ -9,7 +9,7 @@ I'm a second-year Computer Science student at the University of Waterloo. I am c
 
 Deep learning in NLP is my main area of interest. I am looking into the extent to which LLM token embeddings and hidden states are capable of expressing outputs and meanings. I perform small explorations on these topics, which you can find on my [Github](https://github.com/AndyyyYuuu). 
 
-I'm also a casual jazz alto saxophonist.
+On the side, I also play jazz on the alto saxophone and flute. 
 
 
 ## News
